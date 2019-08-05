@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(im.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-family: Helvetica;
+    width: 1320px;
+    height: 690px;
+    
+  }
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-decoration-break: slice;
+}
+.logo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 80px;
+    height: 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #F1E465;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #F1E465;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #F1E465;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+
+.signup {
+    text-decoration: none;
+    font-size: 18px;
+    color: #F1E465;
+    
+    a {
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+footer {
+   
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding:1rem;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin:0px;
+ }
+
+
+footer p {
+    color: #108790;
+    margin:0px;
+    font-size:12px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1.6px;
+}
+
+
+footer p a {
+    color: #000;
+}
+
+
+footer p a span {
+    color: #FF9F46;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
